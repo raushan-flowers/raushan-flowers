@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("order-btn").addEventListener("click", () => {
     const msg = generateMessage();
     if (msg) {
-      const phone = "77013328646";
+      const phone = "77761039294";
       window.open(`https://wa.me/${phone}?text=${msg}`, "_blank");
     }
   });
